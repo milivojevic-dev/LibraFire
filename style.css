@@ -1,0 +1,82 @@
+.social-share-wrapper div {
+    float       : left;
+    margin-right: 10px;
+}
+
+.social-share-wrapper div.share-on {
+    padding    : 5px;
+    font-weight: bold;
+}
+
+.social-share-wrapper div.facebook {
+    background-color: #3a5795;
+    padding         : 5px;
+}
+
+.social-share-wrapper div.facebook a {
+    color: white;
+}
+
+.social-share-wrapper div.twitter {
+    background-color: #55acee;
+    padding         : 5px;
+}
+
+.social-share-wrapper div.twitter a {
+    color: white;
+}
+
+.social-share-wrapper div.linkedin {
+    background-color: #007bb6;
+    padding         : 5px;
+}
+
+.social-share-wrapper div.linkedin a {
+    color: white;
+}
+
+.social-share-wrapper div.google {
+    background-color: #000;
+    padding         : 5px;
+}
+
+.social-share-wrapper div.google a {
+    color: white;
+}
+
+.social-share-wrapper div.whatsapp {
+    display         : none;
+    background-color: #40d65c;
+    padding         : 5px;
+}
+
+.social-share-wrapper div.whatsapp a {
+    color: white;
+}
+
+.social-share-wrapper div a {
+    text-decoration: none;
+    border         : none;
+}
+
+.clear {
+    clear: left;
+}
+
+.big {
+    font-size: 30px;
+}
+
+.medium {
+    font-size: 22px;
+}
+
+.small {
+    font-size: 15px;
+}
+
+@media screen and (max-width: 575px) {
+    .social-share-wrapper div.whatsapp {
+        display: block;
+    }
+}
